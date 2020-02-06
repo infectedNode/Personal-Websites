@@ -264,6 +264,48 @@ body {
     color: rgb(97, 97, 97);
 }
 
+.teach .learn{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.teach .learn p {
+    font-size: 1.5rem;
+    color: rgb(63, 63, 63);
+    margin: 20px 0;
+    font-weight: 600;
+}
+
+.teach .learn .steps {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.teach .learn .steps p {
+    font-size: 1.2rem;
+    color: rgb(63, 63, 63);
+    font-weight: 400;
+}
+
+.teach .learn p .dark {
+    color: #000;
+    font-weight: 600;
+}
+
+.teach .learn .steps .img-block {
+    width: 600px;
+    box-sizing: border-box;
+    padding: 0 20px;
+}
+
+.teach .learn .steps .img-block img {
+    box-shadow: 0 6px 15px rgba(0,0,0,.2);
+    width: 100%;
+}
+
+
 @media(max-width: 450px) {
     .teach {
         padding: 20px;
