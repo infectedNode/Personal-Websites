@@ -317,6 +317,25 @@ body {
     .teach h2 .info {
         font-size: 1rem;
     }
+    .teach .learn{
+        padding: 10px;
+    }
+    .teach .learn p {
+        font-size: 1.2rem;
+        margin: 10px 0;
+    }
+    .teach .learn .steps {
+        width: 100%;
+        box-sizing: border-box;
+        padding: 5px;
+    }
+    .teach .learn .steps p {
+        font-size: .9rem;
+    }
+    .teach .learn .steps .img-block {
+        width: 100%;
+        padding: 0;
+    }
 }
 
 .license {
